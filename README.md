@@ -15,17 +15,16 @@ Drug-Target-Analysis
 (3) 搭建神经网络模型，网络最顶层采用sigmoid激活函数，输出某药物-靶标对的相互反应概率值（0~1）。<br>
 
 (4) 根据模型的一系列指标（召回率、均方差、ROC、AUC）评估模型效果，并进行模型调优。<br>
-## 系统框架
-![系统框架如图所示](https://github.com/HouXun/Image-Emotional-Analysis/raw/master/pics/structure.png)
+## 模型结构
+![模型结构如图所示](https://github.com/HouXun/Drug-Target-Analysis/raw/master/figures/NNDTI.png)
 
 ## 数据获取
-社交平台：[Tumblr](https://tumblr.zendesk.com/hc/zh-cn)<br>
+[Supplements of ISMB 2008 paper](http://web.kuicr.kyoto-u.ac.jp/supp/yoshi/drugtarget/)<br>
 
 ## 预测结果
-![test1](https://github.com/HouXun/Image-Emotional-Analysis/raw/master/pics/test1.png)<br>
-![test2](https://github.com/HouXun/Image-Emotional-Analysis/raw/master/pics/test2.png)<br>
-![test3](https://github.com/HouXun/Image-Emotional-Analysis/raw/master/pics/test3.png)<br>
-![test4](https://github.com/HouXun/Image-Emotional-Analysis/raw/master/pics/test4.png)<br>
+![MAE](https://github.com/HouXun/Drug-Target-Analysis/raw/master/figures/MAE.png)<br>
+![ROC](https://github.com/HouXun/Drug-Target-Analysis/raw/master/figures/ROC.png)<br>
+
 
 
 
